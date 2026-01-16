@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "606456156488",
+    "firebase_url": "https://parla0-default-rtdb.firebaseio.com",
+    "project_id": "parla0",
+    "storage_bucket": "parla0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606456156488:android:a8fcd520f1c5ea1016a37d",
+        "android_client_info": {
+          "package_name": "me.ritom.parla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606456156488-kb0qf0fhf67kj86d5c7jfafmeb1p0fq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7-ODDJlU-KSGEM1b-lwvlgeI3WiiNeBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606456156488-kb0qf0fhf67kj86d5c7jfafmeb1p0fq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

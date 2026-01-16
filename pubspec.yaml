@@ -1,0 +1,103 @@
+name: parla
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ---------------------------
+  # Firebase Core & Services
+  # ---------------------------
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  firebase_database: ^12.1.0 # Latest Realtime Database
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+  firebase_crashlytics: ^5.0.5
+  firebase_analytics: ^12.0.4
+
+  # ---------------------------
+  # Firebase UI (Firestore / Database / Storage)
+  # ---------------------------
+  firebase_ui_firestore: ^2.0.1 # Firestore pagination + widgets
+
+  # ---------------------------
+  # Auth Providers
+  # ---------------------------
+  google_sign_in: ^7.2.0 # Google Sign-In support
+
+  # ---------------------------
+  # Security / Encryption
+  # ---------------------------
+  encrypt: ^5.0.3 # AES / RSA encryption for chats + files
+  cryptography: ^2.9.0 # Modern cryptography algorithms
+  flutter_secure_storage: ^9.2.4 # Secure key storage for E2EE
+
+  # ---------------------------
+  # UI / Icons / Visuals
+  # ---------------------------
+  heroicons: ^0.11.0 # Modern icon set for clean UI
+  forui: ^0.16.0 # Minimalistic widgets
+  easy_overlay: ^1.0.1
+  video_player: ^2.10.1
+
+  # ---------------------------
+  # QR Code Generation
+  qr_flutter: ^4.1.0
+  qr: ^3.0.2
+
+  # ---------------------------
+  # State Management
+  # ---------------------------
+  riverpod: ^2.5.1
+  flutter_riverpod: ^2.5.1
+  intl: ^0.20.2
+  file_selector: ^1.1.0
+  image_picker: ^1.2.1
+  uuid: ^4.5.2
+  camera: ^0.11.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  # ---------------------------
+  # Assets
+  # ---------------------------
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/logo/
+    - assets/fonts/
+    - assets/fonts/pacifico/
+    - assets/fonts/inter/
+
+  # ---------------------------
+  # Fonts
+  # ---------------------------
+  fonts:
+    # Pacifico — for branding, logo text
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/pacifico/Pacifico-Regular.ttf
+          weight: 400
+
+    # Inter — clean UI typography
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter-Thin.ttf
+          weight: 100
